@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 10px;
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  nav {
+    grid-area: nav;
+  }
+  
+  main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+      "Intro"
+      "services"
+      "team"
+      "subsidiaries";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+  }
+  
+  section.introduction {
+    grid-area: introduction;
+  }
+  
+  section.services {
+    grid-area: services;
+  }
+  
+  section.team {
+    grid-area: team;
+  }
+  
+  section.subsidiaries {
+    grid-area: subsidiaries;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  

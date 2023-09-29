@@ -1,0 +1,15 @@
+/* Header Styles */
+header {
+   
+    color: #333; /* Set text color to white */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Footer Styles */
+footer {
+   /* Set the footer background color to navy blue */
+    color: #fff; /* Set text color to white */
+    padding: 5rem 0;
+    text-align: center;
+}

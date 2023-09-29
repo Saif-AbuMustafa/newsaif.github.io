@@ -1,0 +1,38 @@
+/* Style for the header navigation */
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #333; /* Change the link color to white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style for the dropdown menus */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: beige; /* Change the background color of the dropdown to beige */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+/* Show the dropdown menus when hovering over the parent list items */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}

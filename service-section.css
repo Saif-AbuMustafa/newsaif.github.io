@@ -1,0 +1,111 @@
+/* Style for the services section */
+#services {
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 5px #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the service images */
+.service img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the service title and description */
+.service-content h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.service-content p {
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Arrange services in a grid */
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+    }
+}
+
+/* Style for the service title and description */
+.service-content h3 {
+    color: #f7f7f7;
+    font-size: 1.5rem;
+}
+
+.service-content p {
+    color: #333;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Add smooth transition for navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition */
+    display: inline;
+}
+
+/* Animation for navigation links on hover */
+nav a:hover {
+    color: #ad2222; /* Change color on hover  background of the navigation 11*/ 
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Add animations for service boxes */
+.service {
+    width: 300px;
+    padding: 55px; /*to change the gap between the pic boxes*/
+    background-color: transparent;
+    box-shadow: 0 0 5px transparent;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s; /* Smooth transform transition */
+}
+
+/* Animation for service boxes on hover */
+.service:hover {
+    transform: scale(1.3); /* Scale up on hover */
+}
+
+/* Rest of your CSS styles... */

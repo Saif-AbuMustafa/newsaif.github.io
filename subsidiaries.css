@@ -1,0 +1,72 @@
+#subsidiaries {
+    text-align: center;
+    padding: 20px;
+}
+
+#subsidiaries h2 {
+    font-size: 24px;
+    color: #333; /*change the color of the subsidiaries 11*/
+    margin-bottom: 0;
+}
+
+.subsidiaries-container {
+    display: inline-block; /*if you want the pic boxes to be side by side 11*/
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.subsidiary {
+    text-align: center;
+    width: 25%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.subsidiary {
+    width: 300px;
+    padding: 100px; /* to change the gap between the subsidiary boxes11*/
+    background-color: transparent;
+    box-shadow: 0 0 5px transparent;
+    text-align: center;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subsidiary img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px; /* Set a fixed height to keep the images the same size */
+}
+
+.subsidiary h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.subsidiary:hover {
+    transform: scale(1.30);
+}
+
+body {
+    scroll-behavior: smooth; /* Add smooth scrolling behavior */
+}
+
+/* Arrange services in a grid */
+.subsidiaries-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .subsidiaries-container {
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+    }
+}

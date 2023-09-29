@@ -1,0 +1,56 @@
+/* Material Design Styles */
+
+/* Create a consistent color palette */
+:root {
+    --primary-color:beige; /*to change the color of the footer 11*/
+    --secondary-color: #ad2222; /*change this to change the color of the navigation in the footer as when you hover the mouse11*/
+    --background-color: beige;
+    --text-color: #333;/*change the color of service sections11*/
+    --accent-color: #333;/*color of the navigation11*/
+}
+
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 1rem 0;
+}
+
+/* Style the navigation menu */
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color); /* Change color on hover */
+}
+
+/* Style the active link to indicate the current section */
+.nav-links a.active {
+    color: var(--secondary-color);
+}
+
+/* Rest of your Material Design CSS... */

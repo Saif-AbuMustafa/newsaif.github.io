@@ -1,0 +1,277 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ad2222; /* Change color on hover */
+}
+
+/* Style the active link to indicate the current section */
+nav a.active {
+    color: #ad2222;
+}
+
+main {
+    padding: 0;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #ffffff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: none;  /*  change the color of teh footer*/
+    color: #fff;
+    padding:  0;
+}
+
+#logo { text-align: center;
+}
+
+/* Style for the logo images */
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Add smooth scrolling to section
+
+
+/* Add smooth scrolling to section links */
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+header a:hover {
+    color: #333; /* Change color on hover */
+}
+
+/* Style the active link to indicate the current section */
+header a.active {
+    color: #333;
+}
+
+/* Style the anchor links for smooth scrolling */
+body {
+    scroll-behavior: smooth; /* Add smooth scrolling behavior */
+}
+/* Add smooth scrolling to section links */
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+header a:hover {
+    color: #ad2222; /* Change color on hover */
+}
+
+/* Style the active link to indicate the current section */
+header a.active {
+    color: #ad2222;
+}
+
+
+
+
+
+
+/* Change the font style to "Yellowtail" and increase font size for text elements */
+body {
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+h1 {
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 32px; /* Adjust the font size as needed */
+}
+
+h2 {
+    font-family: "Oswald",Arial, sans-serif;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+p {
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+ul, li {
+    font-family: "Oswaldl", Arial, sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Additional custom styles can be added as needed */
+
+/* Text Content Styles */
+
+
+  
+
+/* Set the initial background color to golden */
+body {
+    background: linear-gradient(0deg, #ad2222, beige); /* Gradient from golden to black */
+    background-attachment: linear; /* Keep the background fixed */
+     /* Smooth background color transition */
+    transition: background-color 0.3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 3s;
+}
+
+
+
+
+  
+
+/* Define a custom font size for the header */
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 2rem 0;
+    font-size: 2rem; /* Increase the font size for the header */
+}
+
+/* Increase the font size for h1 and add a background gradient */
+h1 {
+    color: var(--accent-color);
+    font-size: 4rem; /* Increase the font size for h1 */
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Increase the font size for h2 and add a border-bottom */
+h2 {
+    color: var(--primary-color);
+    font-size: 3rem; /* Increase the font size for h2 */
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+/* Increase the font size for regular text */
+p {
+    font-size: 1.5rem; /* Increase the font size for paragraphs */
+}
+
+/* Customize the font size for list items */
+ul, li {
+    font-size: 1.8rem; /* Increase the font size for lists */
+    color: var(--secondary-color);
+}
+
+/* Update the font size for the navigation links */
+.nav-links a {
+    font-size: 1.8rem; /* Increase the font size for navigation links */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+}
+
+/* Adjust the font size for the service titles and descriptions */
+.service-content h3 {
+    color: var(--primary-color);
+    font-size: 2.5rem; /* Increase the font size for service titles */
+}
+
+.service-content p {
+    color: var(--text-color);
+    font-size: 1.8rem; /* Increase the font size for service descriptions */
+}
+
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    color: #333; /* change the color of the text 11 */
+}
+
+
+
+/*this is for the pic boxes as there will be no underline in the service section */
+.no-underline { 
+    text-decoration: none;
+}
+.box-title {
+    color: #333; /* Set to the same color as the text below */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

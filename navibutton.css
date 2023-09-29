@@ -1,0 +1,53 @@
+/* Style for the button and search bar */
+#nav-toggle {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    background-color: beige; /* Button background color */
+    color: #333; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#search-bar {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 160px; /* Adjust the right position as needed */
+    padding: 8px;
+    background-color: transparent; 
+    border: none;
+}
+
+/* Style for the navigation links */
+#nav-links {
+    display: none;
+}
+
+#nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+#nav-links ul li {
+    margin: 0 10px;
+    display: inline;
+}
+
+#nav-links ul li a {
+    text-decoration: none;
+    color: #ad2222;
+    font-weight: bold;
+}
+
+/* Show the navigation links when the button is clicked */
+#nav-links.visible {
+    display: flex;
+}
+
+/* Hide the navigation links initially */
+#nav-links.hidden {
+    display: none;
+}

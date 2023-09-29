@@ -1,0 +1,25 @@
+/* Set the initial background color to golden */
+body {
+    background-color: beige;
+    transition: background-color 0.3s;
+}
+
+/* Style for the introduction section */
+#introduction {
+    display: flex; /* Use flexbox for layout control */
+    align-items: center; /* Vertically center content */
+}
+
+/* Style for the content div (text) */
+.content {
+    flex: 1; /* Take up available space */
+}
+
+/* Style for the image div */
+.image {
+    width: 100px; /* Set a fixed width for the image */
+    margin-left: 20px; /* Add some margin to create space between text and image */
+}
+
+
+
